@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using WebApiWithCrud.Endpoints;
 using WebApiWithCrud.Persistence;
+using WebApiWithCrud.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,13 +15,9 @@ builder.Services.AddDbContext<MovieDbContext>(options =>
     options.UseNpgsql(connectionString);
 });
 
-var app = builder.Build();
+builder.Services.AddTransient<IMovieService, MovieService>();
 
-await using (var serviceScope = app.Services.CreateAsyncScope())
-await using (var dbContext = serviceScope.ServiceProvider.GetRequiredService<MovieDbContext>())
-{
-    await dbContext.Database.EnsureCreatedAsync();
-}
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -28,12 +26,18 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
-app.MapGet("/", () => "Hello World!")
-   .Produces<string>(200);
+await using (var serviceScope = app.Services.CreateAsyncScope())
+await using (var dbContext = serviceScope.ServiceProvider.GetRequiredService<MovieDbContext>())
+{
+    await dbContext.Database.EnsureCreatedAsync();
+}
 
 app.UseHttpsRedirection();
 
+app.MapGet("/", () => "Hello World!")
+    .Produces<string>(200);
 
+app.MapMovieEndpoints();
 
 app.Run();
 

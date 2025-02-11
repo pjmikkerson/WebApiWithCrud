@@ -1,0 +1,51 @@
+﻿# Title, Genre, ReleaseDate, Rating
+Seven Samurai,Drama,1954-04-26,10
+Rashomon,Drama,1950-08-25,9
+Throne of Blood,Tragedy,1957-10-02,9
+The Hidden Fortress,Adventure,1958-12-12,8
+Yojimbo,Action,1961-09-15,9
+Sanjuro,Action,1962-08-01,8
+High and Low,Crime,1963-05-31,9
+Red Beard,Drama,1965-12-23,8
+Dersu Uzala,Adventure,1975-11-28,8
+Enter the Dragon,Martial Arts,1973-08-18,9
+Fist of Fury,Martial Arts,1972-12-02,8
+The 36th Chamber of Shaolin,Martial Arts,1978-03-05,9
+Drunken Master,Martial Arts,1978-10-01,8
+Drunken Master II,Martial Arts,1994-02-10,9
+Five Deadly Venoms,Martial Arts,1978-03-01,8
+Crouching Tiger, Hidden Dragon,Martial Arts,2000-07-07,9
+Ip Man,Martial Arts,2008-12-12,9
+Ip Man 2,Martial Arts,2010-03-19,8
+Ip Man 3,Martial Arts,2015-12-17,8
+Ip Man 4: The Finale,Martial Arts,2019-12-20,8
+Kung Fu Hustle,Martial Arts,2004-12-23,8
+House of Flying Daggers,Martial Arts,2004-10-14,8
+Hero,Martial Arts,2002-02-28,9
+Shaolin,Martial Arts,2011-03-04,7
+Once Upon a Time in China,Martial Arts,1991-10-11,8
+Once Upon a Time in China II,Martial Arts,1992-10-09,8
+Once Upon a Time in China III,Martial Arts,1993-08-19,8
+Iron Monkey,Martial Arts,1993-01-01,7
+The Legend of the Condor Heroes,Martial Arts,1983-12-25,8
+Fist of Legend,Martial Arts,1994-01-01,8
+Chase,Martial Arts,1994-05-18,7
+Legend of the Drunken Master,Martial Arts,1994-07-01,7
+Rumble in the Bronx,Martial Arts,1995-02-10,7
+Once Upon a Time in China IV,Martial Arts,1993-07-31,7
+Fist of Fury 2,Martial Arts,1977-10-05,7
+Enter the Dragon 2,Martial Arts,1976-09-10,6
+The Chinese Connection,Martial Arts,1972-10-05,7
+The Prodigal Son,Martial Arts,1981-03-01,7
+Snake in the Eagle's Shadow,Martial Arts,1978-06-15,8
+Magnificent Butcher,Martial Arts,1979-10-28,7
+Warriors of Virtue,Martial Arts,1997-03-14,6
+Bloodsport,Martial Arts,1988-06-10,7
+Best of the Best,Martial Arts,1989-03-10,6
+Lionheart,Martial Arts,1990-03-30,7
+Undisputed,Martial Arts,2002-02-15,7
+Ong-Bak: Muay Thai Warrior,Martial Arts,2003-02-28,8
+Legend of the Fist: The Return of Chen Zhen,Martial Arts,2010-12-16,7
+The Raid: Redemption,Martial Arts,2011-03-18,8
+Merantau,Martial Arts,2009-08-05,7
+Ong Bak 2: The Beginning,Martial Arts,2008-05-02,7
